@@ -1,0 +1,62 @@
+div {
+    border: 1px solid #000;
+}
+
+header {
+    border-bottom: 1px solid #000;
+    text-align: center;
+    height: 60px;
+}
+
+header h1 {
+    margin: 0;
+    line-height: 60px;
+}
+
+nav {
+    border-bottom: 1px solid #000;
+    text-align: center;
+    height: 60px;
+}
+
+nav h1 {
+    margin: 0;
+    line-height: 60px;
+}
+
+section {
+    display: flex;
+    height: 250px;
+}
+
+aside {
+    border-right: 1px solid #000;
+    width: 10%;
+}
+
+aside h1 {
+    margin: 0;
+    line-height: 250px;
+    text-align: center;
+}
+
+article {
+    width: 90%;
+}
+
+article h1 {
+    margin: 0;
+    line-height: 250px;
+    text-align: center;
+}
+
+footer {
+    border-top: 1px solid #000;
+    text-align: center;
+    height: 120px;
+}
+
+footer h1 {
+    margin: 0;
+    line-height: 120px;
+}

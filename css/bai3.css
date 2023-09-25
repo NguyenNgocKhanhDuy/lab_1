@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+div {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: #c4996c;
+    margin-bottom: 16px;
+    border: 2px solid #000;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    line-height: 120px;
+    font-weight: 400;
+}
+
+#companyImage {
+    width: 100%;
+    height: 400px;
+    background-color: #a8a9ad;
+    text-align: center;
+    border: 2px solid #000;
+}
+
+#companyImage h1, #companyImage h2 {
+    color: #fff;
+    line-height: 200px;
+    margin: 0;
+    font-weight: 400;
+}
+
+#companyImage a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#content {
+    width: 100%;
+    text-align: center;
+}
+
+#content h1 {
+    font-weight: 400;
+}
+
+.services_list {
+    display: grid;
+    margin-bottom: 24px;
+    grid-template-columns: 180px 180px 180px;
+    grid-template-rows: 220px 220px;
+    justify-content: space-around;
+    row-gap: 24px;
+}
+
+.service_item {
+    width: 180px;
+    height: 220px;
+    border: 2px solid #000;
+    background-color: #a8a9ad;
+    color: #fff;
+}
+
+.service_item h2 {
+    font-weight: 400;
+    line-height: 220px;
+    margin: 0;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: #115d7f;
+    border: 2px solid #000;
+}
+
+footer h1 {
+    color: #fff;
+    margin: 0;
+    line-height: 120px;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+
